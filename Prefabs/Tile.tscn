@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnglxf2xifn5i"]
+
+[ext_resource type="Material" uid="uid://snipynvbxfde" path="res://Materials/Dirt.tres" id="1_1pf63"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_luwg4"]
+
+[node name="Tile" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = ExtResource("1_1pf63")
+mesh = SubResource("BoxMesh_luwg4")

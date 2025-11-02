@@ -1,0 +1,47 @@
+[gd_scene load_steps=3 format=3 uid="uid://3dtichqcq6q8"]
+
+[ext_resource type="Material" uid="uid://bsww8tp3tu1mx" path="res://Materials/Selection.tres" id="1_trwk0"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_gipks"]
+
+[node name="TileSelectionIndicator" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.3, 0.5, 0, 0.4)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.371139e-09, 0, 0.3, 0, 0.1, 0, -0.1, 0, -1.3113417e-08, 0.4, 0, -0.5)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.1, 0, -2.6226834e-08, 0, 0.1, 0, 8.742278e-09, 0, -0.3, -0.5, 0, -0.4)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.371139e-09, 0, 0.3, 0, 0.1, 0, -0.1, 0, -1.3113417e-08, -0.4, 0, 0.5)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.371139e-09, 0, 0.3, 0, 0.1, 0, -0.1, 0, -1.3113417e-08, 0.4, 0, 0.5)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.1, 0, -2.6226834e-08, 0, 0.1, 0, 8.742278e-09, 0, -0.3, 0.5, 0, -0.4)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="MeshInstance3D7" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.371139e-09, 0, 0.3, 0, 0.1, 0, -0.1, 0, -1.3113417e-08, -0.4, 0, -0.5)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
+
+[node name="MeshInstance3D8" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.3, -0.5, 0, 0.4)
+material_override = ExtResource("1_trwk0")
+mesh = SubResource("BoxMesh_gipks")
